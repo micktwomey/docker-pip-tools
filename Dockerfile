@@ -7,4 +7,4 @@ RUN pip install -U setuptools pip wheel \
 
 WORKDIR /src
 
-CMD ["pip-compile", "--upgrade", "requirements.txt"]
+CMD ["pip-compile", "--upgrade", "requirements.in"]
