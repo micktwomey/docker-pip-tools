@@ -1,4 +1,4 @@
-FROM python:3.5.2-alpine
+FROM python:3.6.1-alpine
 MAINTAINER Michael Twomey <mick@twomeylee.name>
 
 COPY requirements.txt /requirements.txt
